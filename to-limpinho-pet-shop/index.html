@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.documentElement.className = 'js';</script>
+
+  <!-- ============================================================
+       MARCADORES: procure por "PREENCHER:" neste arquivo para achar
+       tudo o que depende de informação do cliente ou da publicação.
+       ============================================================ -->
+
+  <title>Banho e Tosa em Piracicaba | Tô Limpinho Pet Shop</title>
+  <meta name="description" content="Banho e tosa em Piracicaba com mais de 20 anos de experiência. Banho, tosa, tosa higiênica, hidratação e banho de ozônio, com entrega e retirada. Agende pelo WhatsApp.">
+  <meta name="theme-color" content="#D9161F">
+
+  <!-- PREENCHER: quando o domínio oficial for comprado, trocar https://tolimpinho.netlify.app pelo endereço final do site (5 lugares: canonical, og:url, og:image e 2 no JSON-LD) -->
+  <link rel="canonical" href="https://tolimpinho.netlify.app/">
+
+  <!-- Open Graph (prévia do link no WhatsApp, Facebook etc.) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Tô Limpinho Pet Shop">
+  <meta property="og:title" content="Tô Limpinho Pet Shop | Banho e Tosa em Piracicaba">
+  <meta property="og:description" content="Mais de 20 anos cuidando dos pets de Piracicaba com carinho. Nota 4,8 no Google. Agende pelo WhatsApp.">
+  <meta property="og:url" content="https://tolimpinho.netlify.app/">
+  <meta property="og:image" content="https://tolimpinho.netlify.app/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Tô Limpinho Pet Shop, banho e tosa em Piracicaba">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Dados estruturados de negócio local (PetStore é um subtipo de LocalBusiness) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["PetStore", "LocalBusiness"],
+    "name": "Tô Limpinho Pet Shop - Banho e Tosa",
+    "description": "Banho e tosa em Piracicaba com mais de 20 anos de experiência. Banho, tosa, tosa higiênica, hidratação e banho de ozônio. Loja com acessórios, roupinhas, petiscos e tapetes higiênicos. Entrega e retirada, atendimento com agendamento.",
+    "url": "https://tolimpinho.netlify.app/",
+    "image": "https://tolimpinho.netlify.app/assets/og-image.png",
+    "telephone": "+5519981615300",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "R. Dom Pedro I, 1666",
+      "addressLocality": "Piracicaba",
+      "addressRegion": "SP",
+      "addressCountry": "BR"
+    },
+    "areaServed": { "@type": "City", "name": "Piracicaba" },
+    "hasMap": "https://www.google.com/maps/search/?api=1&query=T%C3%B4%20Limpinho%20Pet%20Shop&query_place_id=ChIJUZfO0qsxxpQRmjlZv6hkVfU",
+    "sameAs": ["https://www.instagram.com/tolimpinhopiracicaba/"],
+    "paymentAccepted": "Cartão de crédito, cartão de débito, pagamento por aproximação",
+    "amenityFeature": {
+      "@type": "LocationFeatureSpecification",
+      "name": "Estacionamento gratuito",
+      "value": true
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Serviços de banho e tosa",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Banho" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tosa" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tosa higiênica" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hidratação" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Banho de ozônio" } }
+      ]
+    }
+  }
+  </script>
+  <!-- PREENCHER (JSON-LD acima): adicionar "postalCode" (CEP), "openingHoursSpecification" (horários), "priceRange" e "geo" quando o cliente confirmar.
+       A nota 4,8 do Google ficou de fora do JSON-LD de propósito: o Google não aceita marcação de avaliações copiadas de outra plataforma. -->
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- Ícones reutilizáveis -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <!-- Patinha com almofada em coração: redesenho inspirado na logo do cliente.
+         PREENCHER: pedir o arquivo original da logo (PNG com fundo transparente ou SVG) e trocar no cabeçalho. -->
+    <symbol id="i-paw" viewBox="0 0 24 24">
+      <g fill="currentColor">
+        <ellipse cx="4.3" cy="9" rx="1.8" ry="2.4" transform="rotate(-25 4.3 9)"/>
+        <ellipse cx="9" cy="4.7" rx="1.9" ry="2.6" transform="rotate(-8 9 4.7)"/>
+        <ellipse cx="15" cy="4.7" rx="1.9" ry="2.6" transform="rotate(8 15 4.7)"/>
+        <ellipse cx="19.7" cy="9" rx="1.8" ry="2.4" transform="rotate(25 19.7 9)"/>
+        <path d="M12 22c-4.2-2.7-6.8-5.4-6.8-8.2 0-1.9 1.5-3.2 3.2-3.2 1.5 0 2.8.8 3.6 2.1.8-1.3 2.1-2.1 3.6-2.1 1.7 0 3.2 1.3 3.2 3.2 0 2.8-2.6 5.5-6.8 8.200z"/>
+      </g>
+    </symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/>
+      <path fill="var(--wa-glyph, #fff)" d="M8.500 7.500c.3-.6.6-.6.9-.6h.7c.2 0 .5.1.7.6l.8 2c.1.3 0 .6-.1.8l-.6.8c-.2.2-.2.4-.1.6.5.9 1.600 2.100 3 2.800.3.1.5.1.7-.1l.8-1c.2-.3.5-.3.8-.2l1.900.9c.3.2.5.3.5.6 0 .7-.3 1.600-1 2-.7.5-1.700.7-3.300.1-2.600-1-4.700-3-6-5.300-.8-1.500-.7-2.900.3-4z"/>
+    </symbol>
+    <symbol id="i-star" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M12 2.500l2.900 6 6.600.9-4.800 4.600 1.200 6.500L12 17.400l-5.900 3.100 1.200-6.500L2.500 9.400l6.600-.9z"/>
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M5 12h14M13 6l6 6-6 6"/>
+    </symbol>
+    <symbol id="i-collar" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <ellipse cx="16" cy="12" rx="11" ry="5"/><path d="M5 12v3c0 2.800 4.900 5 11 5s11-2.200 11-5v-3"/><circle cx="16" cy="24" r="3"/>
+    </symbol>
+    <symbol id="i-shirt" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M11 5l-7 4 3 5 3-1.500V27h12V12.500l3 1.500 3-5-7-4a5 5 0 0 1-10 0z"/>
+    </symbol>
+    <symbol id="i-bone" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M10.500 14.500l7-7a3.200 3.200 0 1 1 5.500-1 3.200 3.200 0 1 1-1 5.500l-7 7-4 4a3.200 3.200 0 1 1-5.500 1 3.200 3.200 0 1 1 1-5.500z"/>
+    </symbol>
+    <symbol id="i-pad" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="4" y="7" width="24" height="18" rx="3"/><rect x="9" y="12" width="14" height="8" rx="1.500" stroke-dasharray="2.500 3"/>
+    </symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 21s7-6.200 7-11.500a7 7 0 0 0-14 0C5 14.800 12 21 12 21z"/><circle cx="12" cy="9.500" r="2.500"/>
+    </symbol>
+    <symbol id="i-car" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 16v-4l2-5h12l2 5v4M4 16h16M4 16v2.500M20 16v2.500M3 12h18"/>
+    </symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>
+    </symbol>
+    <symbol id="i-insta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="3.500" y="3.500" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r=".8" fill="currentColor"/>
+    </symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.800" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 8h3l1.500-2h7L17 8h3v11H4z"/><circle cx="12" cy="13" r="3.500"/>
+    </symbol>
+  </svg>
+
+  <!-- ===================== TOPO ===================== -->
+  <header class="site-header">
+    <div class="wrap">
+      <div class="header-row">
+        <a class="brand" href="#inicio" aria-label="Tô Limpinho Pet Shop, início">
+          <svg class="brand-mark" width="38" height="38" aria-hidden="true"><use href="#i-paw"/></svg>
+          <span class="brand-text">Tô Limpinho<small>Pet Shop e Estética Canina</small></span>
+        </a>
+        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+          <span></span><span></span>
+        </button>
+        <nav id="menu" class="nav" aria-label="Seções do site">
+          <a href="#servicos">Serviços</a>
+          <a href="#loja">Loja</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#como-funciona">Como funciona</a>
+          <a href="#localizacao">Localização</a>
+          <a href="#faq">Dúvidas</a>
+          <a class="btn btn-wa btn-sm" href="https://wa.me/5519981615300" target="_blank" rel="noopener"
+             data-wa="Olá! Vim pelo site e gostaria de agendar um horário para o meu pet.">
+            <svg width="18" height="18" aria-hidden="true"><use href="#i-wa"/></svg> Agendar
+          </a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <section id="inicio" class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="dot"></span> Piracicaba · há mais de 20 anos</p>
+          <h1>Banho e tosa com o <em>carinho</em> de quem cuida há mais de 20 anos.</h1>
+          <p class="lead">Seu pet volta limpinho, cheiroso e tranquilo. E, se você preferir, a gente busca e leva em casa.</p>
+          <div class="hero-cta">
+            <a class="btn btn-wa btn-lg" href="https://wa.me/5519981615300" target="_blank" rel="noopener"
+               data-wa="Olá! Vim pelo site e gostaria de agendar um horário para o meu pet.">
+              <svg width="24" height="24" aria-hidden="true"><use href="#i-wa"/></svg> Agendar pelo WhatsApp
+            </a>
+            <a class="link-arrow" href="#servicos">Ver serviços <svg width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+
+        <div class="hero-art">
+          <div class="glow" aria-hidden="true"></div>
+          <!-- Ilustração original: a patinha da logo vira a moldura da imagem principal.
+               PREENCHER: pode ser trocada por uma foto real de um pet atendido na loja, recortada no mesmo formato. -->
+          <svg viewBox="0 0 440 440" role="img" aria-label="Ilustração: cachorro caramelo sorrindo em uma banheira com espuma, dentro da patinha com coração da marca Tô Limpinho">
+            <g fill="#D9161F">
+              <ellipse cx="92" cy="128" rx="30" ry="41" transform="rotate(-25 92 128)"/>
+              <ellipse cx="170" cy="70" rx="32" ry="45" transform="rotate(-8 170 70)"/>
+              <ellipse cx="270" cy="70" rx="32" ry="45" transform="rotate(8 270 70)"/>
+              <ellipse cx="348" cy="128" rx="30" ry="41" transform="rotate(25 348 128)"/>
+              <path d="M220 432C120 372 56 302 56 240c0-50 40-82 86-82 36 0 62 18 78 42 16-24 42-42 78-42 46 0 86 32 86 82 0 62-64 132-164 192z"/>
+            </g>
+            <g transform="translate(220 272) scale(.72) translate(-200 -205)">
+              <ellipse cx="200" cy="235" rx="70" ry="60" fill="#E9B872"/>
+              <ellipse cx="138" cy="150" rx="26" ry="46" transform="rotate(18 138 150)" fill="#A9652E"/>
+              <ellipse cx="262" cy="150" rx="26" ry="46" transform="rotate(-18 262 150)" fill="#A9652E"/>
+              <circle cx="200" cy="150" r="64" fill="#E9B872"/>
+              <ellipse cx="200" cy="172" rx="36" ry="28" fill="#FFF3E0"/>
+              <circle cx="176" cy="140" r="7.5" fill="#1E1E24"/><circle cx="178.5" cy="137.5" r="2.3" fill="#fff"/>
+              <circle cx="224" cy="140" r="7.5" fill="#1E1E24"/><circle cx="226.5" cy="137.5" r="2.3" fill="#fff"/>
+              <ellipse cx="200" cy="160" rx="10" ry="7" fill="#1E1E24"/>
+              <path d="M184 174q16 16 32 0" fill="none" stroke="#1E1E24" stroke-width="3.5" stroke-linecap="round"/>
+              <path d="M192 181q8 16 16 0z" fill="#FF8A80"/>
+              <g fill="#fff"><circle cx="186" cy="92" r="16"/><circle cx="208" cy="84" r="20"/><circle cx="226" cy="98" r="13"/></g>
+              <path d="M62 222h276v38a56 56 0 0 1-56 56H118a56 56 0 0 1-56-56z" fill="#fff"/>
+              <path d="M92 250c0 22 12 36 30 40" fill="none" stroke="#FFD9D6" stroke-width="8" stroke-linecap="round"/>
+              <rect x="44" y="204" width="312" height="30" rx="15" fill="#fff" stroke="#1E1E24" stroke-width="5"/>
+              <g fill="#fff">
+                <circle cx="84" cy="200" r="18"/><circle cx="110" cy="192" r="22"/><circle cx="296" cy="194" r="22"/><circle cx="322" cy="202" r="16"/>
+                <circle cx="270" cy="204" r="13"/><circle cx="134" cy="204" r="13"/>
+              </g>
+              <ellipse cx="166" cy="208" rx="17" ry="13" fill="#E9B872"/><ellipse cx="234" cy="208" rx="17" ry="13" fill="#E9B872"/>
+            </g>
+            <g class="bubbles" fill="#fff" fill-opacity=".85" stroke="#8EDDE6" stroke-width="3">
+              <circle class="b1" cx="36" cy="236" r="14"/><circle class="b2" cx="408" cy="214" r="18"/>
+              <circle class="b3" cx="398" cy="300" r="9"/><circle class="b1" cx="220" cy="24" r="9"/><circle class="b2" cx="52" cy="330" r="7"/>
+            </g>
+          </svg>
+        </div>
+
+        <dl class="facts">
+          <div><dt>4,8 <svg width="18" height="18" aria-hidden="true"><use href="#i-star"/></svg></dt><dd>no Google, em 235 avaliações</dd></div>
+          <div><dt>20+</dt><dd>anos de banho e tosa</dd></div>
+          <div><dt>Leva e traz</dt><dd>entrega e retirada</dd></div>
+        </dl>
+      </div>
+
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker-track">
+          <span>Banho</span><span>Tosa</span><span>Tosa higiênica</span><span>Hidratação</span><span>Banho de ozônio</span><span>Leva e traz</span>
+          <span>Banho</span><span>Tosa</span><span>Tosa higiênica</span><span>Hidratação</span><span>Banho de ozônio</span><span>Leva e traz</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVIÇOS ===================== -->
+    <section id="servicos" class="section">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="kicker">Serviços</p>
+          <h2>Cinco cuidados, um só jeito de fazer: com calma.</h2>
+        </header>
+        <!-- PREENCHER: preços de cada serviço (por porte/pelagem), duração média e se atendem gatos. As descrições abaixo são genéricas; confirmar com o cliente, principalmente a do banho de ozônio. -->
+
+        <ol class="svc-list">
+          <li class="svc reveal">
+            <span class="svc-n">01</span>
+            <div class="svc-body"><h3>Banho</h3><p>Banho caprichado, sem pressa, para seu pet voltar para casa limpinho e cheiroso.</p></div>
+            <a class="btn btn-line" href="https://wa.me/5519981615300" target="_blank" rel="noopener"
+               data-wa="Olá! Vim pelo site e gostaria de agendar um BANHO para o meu pet.">Agendar banho <svg width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </li>
+          <li class="svc reveal">
+            <span class="svc-n">02</span>
+            <div class="svc-body"><h3>Tosa</h3><p>O corte da pelagem do jeitinho que você preferir, combinado com você no agendamento.</p></div>
+            <a class="btn btn-line" href="https://wa.me/5519981615300" target="_blank" rel="noopener"
+               data-wa="Olá! Vim pelo site e gostaria de agendar uma TOSA para o meu pet.">Agendar tosa <svg width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </li>
+          <li class="svc reveal">
+            <span class="svc-n">03</span>
+            <div class="svc-body"><h3>Tosa higiênica</h3><p>Aparo das áreas que mais acumulam sujeira, para manter a higiene e o conforto no dia a dia.</p></div>
+            <a class="btn btn-line" href="https://wa.me/5519981615300" target="_blank" rel="noopener"
+               data-wa="Olá! Vim pelo site e gostaria de agendar uma TOSA HIGIÊNICA para o meu pet.">Agendar tosa higiênica <svg width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </li>
+          <li class="svc reveal">
+            <span class="svc-n">04</span>
+            <div class="svc-body"><h3>Hidratação</h3><p>Um cuidado extra para a pelagem, que fica mais macia, solta e com brilho.</p></div>
+            <a class="btn btn-line" href="https://wa.me/5519981615300" target="_blank" rel="noopener"
+               data-wa="Olá! Vim pelo site e gostaria de agendar uma HIDRATAÇÃO para o meu pet.">Agendar hidratação <svg width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </li>
+          <li class="svc reveal">
+            <span class="svc-n">05</span>
+            <div class="svc-body"><h3>Banho de ozônio</h3><p>Banho com água ozonizada, um cuidado especial para a pele e a pelagem. Pergunte se é indicado para o seu pet.</p></div>
+            <a class="btn btn-line" href="https://wa.me/5519981615300" target="_blank" rel="noopener"
+               data-wa="Olá! Vim pelo site e gostaria de agendar um BANHO DE OZÔNIO para o meu pet.">Agendar banho de ozônio <svg width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== MONTE SEU AGENDAMENTO (interação principal) ===================== -->
+    <section id="agendar" class="section section-tight">
+      <div class="wrap">
+        <div class="builder reveal">
+          <div class="builder-form">
+            <p class="kicker kicker-light">Agendamento em 10 segundos</p>
+            <h2>Monte o pedido. A mensagem a gente escreve.</h2>
+
+            <fieldset>
+              <legend>O que seu pet vai fazer?</legend>
+              <div class="chips" data-group="servico" data-multi>
+                <button type="button" class="chip" aria-pressed="false">Banho</button>
+                <button type="button" class="chip" aria-pressed="false">Tosa</button>
+                <button type="button" class="chip" aria-pressed="false">Tosa higiênica</button>
+                <button type="button" class="chip" aria-pressed="false">Hidratação</button>
+                <button type="button" class="chip" aria-pressed="false">Banho de ozônio</button>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Qual o porte dele?</legend>
+              <div class="chips" data-group="porte">
+                <button type="button" class="chip" aria-pressed="false">Pequeno</button>
+                <button type="button" class="chip" aria-pressed="false">Médio</button>
+                <button type="button" class="chip" aria-pressed="false">Grande</button>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend>Como prefere?</legend>
+              <div class="chips" data-group="transporte">
+                <button type="button" class="chip" aria-pressed="false">Levo até a loja</button>
+                <button type="button" class="chip" aria-pressed="false">Quero entrega e retirada</button>
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="builder-out">
+            <p class="phone-label">Prévia da sua mensagem</p>
+            <div class="bubble" id="previa" aria-live="polite">Olá! Vim pelo site e gostaria de agendar um horário para o meu pet.</div>
+            <a id="enviar" class="btn btn-wa btn-lg" href="https://wa.me/5519981615300" target="_blank" rel="noopener"
+               data-wa="Olá! Vim pelo site e gostaria de agendar um horário para o meu pet.">
+              <svg width="24" height="24" aria-hidden="true"><use href="#i-wa"/></svg> Enviar no WhatsApp
+            </a>
+            <p class="builder-note">Valores e horários disponíveis: a loja responde pelo WhatsApp. Atendimento somente com agendamento.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== COMO FUNCIONA ===================== -->
+    <section id="como-funciona" class="section">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="kicker">Como funciona</p>
+          <h2>Da mensagem ao pet cheiroso em três passos.</h2>
+        </header>
+        <ol class="steps">
+          <li class="reveal">
+            <span class="step-n">01</span>
+            <h3>Você agenda pelo WhatsApp</h3>
+            <p>O atendimento é somente com agendamento. Assim seu pet é recebido com calma, sem fila e sem correria.</p>
+          </li>
+          <li class="reveal">
+            <span class="step-n">02</span>
+            <h3>Traz seu pet ou combina a retirada</h3>
+            <p>Venha até a loja, com estacionamento gratuito, ou combine para buscarmos seu pet.</p>
+            <!-- PREENCHER: bairros/região atendidos pelo leva e traz e se há taxa. -->
+          </li>
+          <li class="reveal">
+            <span class="step-n">03</span>
+            <h3>Recebe ele limpinho de volta</h3>
+            <p>Depois do cuidado, é só buscar ou receber seu pet em casa.</p>
+          </li>
+        </ol>
+
+        <div class="pay reveal">
+          <h3>Formas de pagamento</h3>
+          <ul class="tags">
+            <li>Cartão de crédito</li>
+            <li>Cartão de débito</li>
+            <li>Pagamento por aproximação</li>
+          </ul>
+          <!-- PREENCHER: confirmar se aceitam Pix e dinheiro, e se parcelam. -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== LOJA ===================== -->
+    <section id="loja" class="section section-blush">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="kicker">Loja</p>
+          <h2>Já que veio, leve um mimo.</h2>
+          <p class="section-lead">Na loja você encontra o que seu pet usa no dia a dia.</p>
+        </header>
+        <!-- PREENCHER: marcas vendidas, produtos em destaque e fotos reais da loja. -->
+        <ul class="shop">
+          <li class="reveal"><svg width="34" height="34" aria-hidden="true"><use href="#i-collar"/></svg><strong>Acessórios</strong><span>Para passear e brincar</span></li>
+          <li class="reveal"><svg width="34" height="34" aria-hidden="true"><use href="#i-shirt"/></svg><strong>Roupinhas</strong><span>Para sair no estilo</span></li>
+          <li class="reveal"><svg width="34" height="34" aria-hidden="true"><use href="#i-bone"/></svg><strong>Petiscos</strong><span>Para agradar e recompensar</span></li>
+          <li class="reveal"><svg width="34" height="34" aria-hidden="true"><use href="#i-pad"/></svg><strong>Tapetes higiênicos</strong><span>Para a rotina em casa</span></li>
+        </ul>
+        <a class="link-arrow" href="https://wa.me/5519981615300" target="_blank" rel="noopener"
+           data-wa="Olá! Vim pelo site e gostaria de saber sobre um produto da loja.">Perguntar sobre um produto <svg width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </section>
+
+    <!-- ===================== SOBRE ===================== -->
+    <section id="sobre" class="section">
+      <div class="wrap about">
+        <div class="about-copy reveal">
+          <p class="kicker">Sobre nós</p>
+          <h2>Mais de 20 anos cuidando dos pets de Piracicaba.</h2>
+          <p>O Tô Limpinho é referência em banho e tosa na cidade. São mais de duas décadas recebendo cada pet com o mesmo cuidado: atenção, paciência e muito carinho.</p>
+          <p>Aqui o tutor sabe o que está sendo feito. Trabalhamos com transparência, em um ambiente limpo e acolhedor, para que seu pet se sinta seguro do começo ao fim.</p>
+          <!-- PREENCHER: nome da proprietária, ano de fundação e uma ou duas frases dela contando a história da loja. -->
+          <ul class="values">
+            <li><svg width="20" height="20" aria-hidden="true"><use href="#i-paw"/></svg><span><strong>Carinho</strong> em cada atendimento</span></li>
+            <li><svg width="20" height="20" aria-hidden="true"><use href="#i-paw"/></svg><span><strong>Confiança</strong> construída em mais de 20 anos</span></li>
+            <li><svg width="20" height="20" aria-hidden="true"><use href="#i-paw"/></svg><span><strong>Transparência</strong> com o tutor</span></li>
+            <li><svg width="20" height="20" aria-hidden="true"><use href="#i-paw"/></svg><span><strong>Ambiente limpo</strong> e acolhedor</span></li>
+          </ul>
+        </div>
+        <div class="photos reveal" aria-label="Espaços reservados para fotos reais da loja">
+          <!-- PREENCHER: substituir cada bloco por <img src="assets/fotos/NOME.jpg" alt="descrição" loading="lazy" width="" height=""> com fotos enviadas pelo cliente. -->
+          <div class="photo-slot tall"><svg width="28" height="28" aria-hidden="true"><use href="#i-camera"/></svg><b>Foto real aqui</b><span>Proprietária e equipe</span></div>
+          <div class="photo-slot"><svg width="28" height="28" aria-hidden="true"><use href="#i-camera"/></svg><b>Foto real aqui</b><span>Sala de banho e tosa</span></div>
+          <div class="photo-slot"><svg width="28" height="28" aria-hidden="true"><use href="#i-camera"/></svg><b>Foto real aqui</b><span>Pet depois do banho</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROVA SOCIAL ===================== -->
+    <section id="avaliacoes" class="rating">
+      <div class="wrap rating-grid">
+        <div class="rating-num reveal">
+          <h2 class="sr-only">Avaliações no Google</h2>
+          <span class="score" aria-hidden="true">4,8</span>
+          <div class="stars" role="img" aria-label="Nota 4,8 de 5 estrelas no Google">
+            <svg width="28" height="28" aria-hidden="true"><use href="#i-star"/></svg><svg width="28" height="28" aria-hidden="true"><use href="#i-star"/></svg><svg width="28" height="28" aria-hidden="true"><use href="#i-star"/></svg><svg width="28" height="28" aria-hidden="true"><use href="#i-star"/></svg><svg width="28" height="28" aria-hidden="true"><use href="#i-star"/></svg>
+          </div>
+        </div>
+        <div class="rating-copy reveal">
+          <p class="kicker kicker-light">Quem conhece, recomenda</p>
+          <p class="rating-big"><strong>235 avaliações</strong> no Google.</p>
+          <p class="rating-text">Carinho e confiança são as palavras que mais aparecem quando os clientes falam do Tô Limpinho.</p>
+          <!-- Sem depoimentos escritos por nós: apenas a nota agregada e o link para as avaliações reais. -->
+          <a class="btn btn-white" href="https://www.google.com/maps/search/?api=1&amp;query=T%C3%B4%20Limpinho%20Pet%20Shop&amp;query_place_id=ChIJUZfO0qsxxpQRmjlZv6hkVfU" target="_blank" rel="noopener">Ver avaliações no Google <svg width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <!-- PREENCHER: atualizar nota e quantidade de vez em quando (dado de 12/11/2026). -->
+          <p class="rating-date">Nota consultada no Google em 12/11/2026.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== LOCALIZAÇÃO ===================== -->
+    <section id="localizacao" class="section">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="kicker">Localização</p>
+          <h2>No bairro Alto, com estacionamento gratuito.</h2>
+        </header>
+        <div class="loc">
+          <div class="loc-info reveal">
+            <ul class="loc-list">
+              <li>
+                <svg width="24" height="24" aria-hidden="true"><use href="#i-pin"/></svg>
+                <div><strong>Endereço</strong><address>R. Dom Pedro I, 1666<br>Alto, Piracicaba - SP</address></div>
+              </li>
+              <li>
+                <svg width="24" height="24" aria-hidden="true"><use href="#i-car"/></svg>
+                <div><strong>Estacionamento gratuito</strong><span>Pare com tranquilidade para deixar e buscar seu pet.</span></div>
+              </li>
+              <li>
+                <svg width="24" height="24" aria-hidden="true"><use href="#i-clock"/></svg>
+                <!-- PREENCHER: horário de funcionamento completo (dias e horas) e CEP. -->
+                <div><strong>Horários</strong><span>Atendimento somente com agendamento. Consulte os horários pelo WhatsApp.</span></div>
+              </li>
+            </ul>
+            <div class="loc-cta">
+              <a class="btn btn-red" href="https://www.google.com/maps/dir/?api=1&amp;destination=T%C3%B4%20Limpinho%20Pet%20Shop%2C%20R.%20Dom%20Pedro%20I%2C%201666%2C%20Piracicaba%20-%20SP&amp;destination_place_id=ChIJUZfO0qsxxpQRmjlZv6hkVfU" target="_blank" rel="noopener">
+                <svg width="20" height="20" aria-hidden="true"><use href="#i-pin"/></svg> Como chegar</a>
+              <a class="btn btn-line" href="tel:+5519981615300">Ligar: (19) 98161-5300</a>
+            </div>
+          </div>
+          <div class="map reveal">
+            <iframe title="Mapa com a localização do Tô Limpinho Pet Shop em Piracicaba" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen
+              src="https://www.google.com/maps?q=T%C3%B4%20Limpinho%20Pet%20Shop%2C%20R.%20Dom%20Pedro%20I%2C%201666%2C%20Piracicaba%20-%20SP&amp;z=16&amp;output=embed"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FAQ ===================== -->
+    <section id="faq" class="section section-blush">
+      <div class="wrap faq-grid">
+        <header class="section-head reveal">
+          <p class="kicker">Perguntas frequentes</p>
+          <h2>Antes de agendar, você pode querer saber.</h2>
+        </header>
+        <!-- PREENCHER: novas perguntas depois de conversar com o cliente (vacinas exigidas, atendem gatos, tempo médio do banho, taxa do leva e traz, pets idosos). -->
+        <div class="faq reveal">
+          <details>
+            <summary>Preciso agendar antes de levar meu pet?</summary>
+            <p>Sim. O atendimento é somente com agendamento. É só chamar no WhatsApp <a href="https://wa.me/5519981615300" target="_blank" rel="noopener" data-wa="Olá! Vim pelo site e gostaria de agendar um horário para o meu pet.">(19) 98161-5300</a> e escolher o melhor horário.</p>
+          </details>
+          <details>
+            <summary>Vocês buscam e levam o pet em casa?</summary>
+            <p>Sim, fazemos entrega e retirada. Combine os detalhes pelo WhatsApp na hora de agendar.</p>
+          </details>
+          <details>
+            <summary>Quais serviços vocês oferecem?</summary>
+            <p>Banho, tosa, tosa higiênica, hidratação e banho de ozônio. Na loja você também encontra acessórios, roupinhas, petiscos e tapetes higiênicos.</p>
+          </details>
+          <details>
+            <summary>Quanto custa o banho e a tosa?</summary>
+            <p>Chame no WhatsApp contando qual é o seu pet e o serviço desejado, e passamos o valor certinho.</p>
+          </details>
+          <details>
+            <summary>Quais são as formas de pagamento?</summary>
+            <p>Aceitamos cartão de crédito, cartão de débito e pagamento por aproximação.</p>
+          </details>
+          <details>
+            <summary>Tem lugar para estacionar?</summary>
+            <p>Sim, temos estacionamento gratuito na R. Dom Pedro I, 1666, no bairro Alto.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CHAMADA FINAL ===================== -->
+    <section class="cta-final">
+      <svg class="cta-paw" aria-hidden="true"><use href="#i-paw"/></svg>
+      <div class="wrap reveal">
+        <h2>Vamos deixar seu pet limpinho?</h2>
+        <p>Chame no WhatsApp e garanta o horário dele.</p>
+        <a class="btn btn-wa btn-lg" href="https://wa.me/5519981615300" target="_blank" rel="noopener"
+           data-wa="Olá! Vim pelo site e gostaria de agendar um horário para o meu pet.">
+          <svg width="24" height="24" aria-hidden="true"><use href="#i-wa"/></svg> Agendar pelo WhatsApp
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== RODAPÉ ===================== -->
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="footer-brand"><svg width="26" height="26" aria-hidden="true"><use href="#i-paw"/></svg> Tô Limpinho</p>
+        <p>Pet Shop e Estética Canina.<br>Banho e tosa em Piracicaba há mais de 20 anos.</p>
+      </div>
+      <div>
+        <h2 class="footer-h">Contato</h2>
+        <ul class="footer-list">
+          <li><a href="https://wa.me/5519981615300" target="_blank" rel="noopener" data-wa="Olá! Vim pelo site e gostaria de agendar um horário para o meu pet.">WhatsApp: (19) 98161-5300</a></li>
+          <li><a href="https://www.instagram.com/tolimpinhopiracicaba/" target="_blank" rel="noopener"><svg width="18" height="18" aria-hidden="true"><use href="#i-insta"/></svg> @tolimpinhopiracicaba</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-h">Endereço</h2>
+        <address>R. Dom Pedro I, 1666<br>Alto, Piracicaba - SP</address>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <p>© <span id="ano">2026</span> Tô Limpinho Pet Shop - Banho e Tosa.</p>
+      <!-- PREENCHER: link do site/WhatsApp da EDVSP no crédito abaixo, se quiser. -->
+      <p>Site por <strong>EDVSP</strong></p>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante de WhatsApp -->
+  <a class="wa-float" href="https://wa.me/5519981615300" target="_blank" rel="noopener"
+     data-wa="Olá! Vim pelo site e gostaria de agendar um horário para o meu pet." aria-label="Agendar pelo WhatsApp">
+    <svg width="34" height="34" aria-hidden="true"><use href="#i-wa"/></svg>
+  </a>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
