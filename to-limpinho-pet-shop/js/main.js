@@ -1,4 +1,4 @@
-// Tô Limpinho Pet Shop — site por EDVSP
+// Tô Limpinho Pet Shop — site por Patron
 (function () {
   'use strict';
 
